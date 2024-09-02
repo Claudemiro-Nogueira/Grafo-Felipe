@@ -2,7 +2,7 @@
 
 ## Visão Geral do Projeto
 
-Este projeto implementa a estrutura de grafos em Java, oferecendo funcionalidades para manipulação, visualização e execução de algoritmos básicos sobre grafos, como a Busca em Largura (BFS) e Busca em Profundidade (DFS). O projeto utiliza a biblioteca **JGraphX** para visualização gráfica, permitindo que o grafo seja representado visualmente em uma interface gráfica baseada em Swing.
+Este projeto implementa a estrutura de grafos em Java, oferecendo funcionalidades para manipulação, visualização e execução de algoritmos básicos sobre grafos. O projeto utiliza a biblioteca **JGraphX** para visualização gráfica, permitindo que o grafo seja representado visualmente em uma interface gráfica baseada em Swing.
 
 ## Funcionalidades Principais
 
@@ -12,8 +12,6 @@ Este projeto implementa a estrutura de grafos em Java, oferecendo funcionalidade
    - Conversão do grafo para uma matriz de adjacências.
 
 2. **Algoritmos de Grafos**:
-   - **BFS (Busca em Largura)**: Realiza a exploração dos vértices do grafo em amplitude, exibindo o caminho percorrido.
-   - **DFS (Busca em Profundidade)**: Realiza a exploração dos vértices do grafo em profundidade, exibindo o caminho percorrido.
    - **Verificação de Conectividade**: Verifica se o grafo é conexo, ou seja, se todos os vértices estão conectados.
 
 3. **Visualização Gráfica**:
@@ -43,8 +41,6 @@ Este projeto implementa a estrutura de grafos em Java, oferecendo funcionalidade
 - `removerVertice(int id)`: Remove um vértice do grafo e todas as suas arestas.
 - `removerAresta(int origem, int destino)`: Remove uma aresta entre dois vértices.
 - `visualizarGrafo()`: Exibe o grafo em uma interface gráfica utilizando JGraphX.
-- `bfs(int verticeInicial)`: Executa a Busca em Largura (BFS) a partir de um vértice inicial.
-- `dfs(int verticeInicial)`: Executa a Busca em Profundidade (DFS) a partir de um vértice inicial.
 - `verificarConexo()`: Verifica se o grafo é conexo.
 - `calcularGrauVertice(int vertice)`: Calcula o grau de um vértice específico.
 - `converterParaMatrizAdjacencia()`: Converte o grafo para uma matriz de adjacência.
@@ -58,4 +54,4 @@ Este projeto implementa a estrutura de grafos em Java, oferecendo funcionalidade
 
 1. Clone o repositório para o seu ambiente local.
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/Claudemiro-Nogueira/Grafo-Felipe.git
